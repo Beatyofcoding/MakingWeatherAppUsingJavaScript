@@ -5,3 +5,12 @@ cons tempElement = document.querySelector(".temperature-value p");
 cons descElement = document.querySelector(".temperature-description p");
 cons locationElement = document.querySelector(".location p");
 cons notificationElement = document.querySelector(".notification");
+
+
+
+// App Data
+const weather = {};
+
+weather.temperature = {
+    unit : "celsius"
+}
