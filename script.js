@@ -14,3 +14,16 @@ const weather = {};
 weather.temperature = {
     unit : "celsius"
 }
+
+// App Consts and Vars
+const KELVIN = 273;
+// API Key
+const key = "82005d27a116c2880c8f0fcb866998a0";
+
+// Check if browser supports Geolocation
+if("geolocation" in navigator){
+    navigator.geolocation.getCurrentPosition(setPosition, showError);
+}else{
+    notificationElement.style.display = "block";
+    notificationElement.innerHTML = "<p>Browser doesn't support Geolocation</p>";
+}
