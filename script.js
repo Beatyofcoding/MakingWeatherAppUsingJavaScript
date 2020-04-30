@@ -35,3 +35,9 @@ function setPosition(position){
 
     getWeather(latitude, longitude);
 }
+
+// Show Error when there is an issue with Geolocation Service
+function showError(error){
+    notificationElement.style.display = "block";
+    notificationElement.innerHTML =`<p> ${error.message} </p>`;
+}
