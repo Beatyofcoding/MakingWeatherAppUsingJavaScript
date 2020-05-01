@@ -62,3 +62,5 @@ function getWeather(latitude, longitude){
             displayWeather();
         });
 }
+
+// Display Weather To UI
