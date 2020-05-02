@@ -53,7 +53,7 @@ function getWeather(latitude, longitude){
         })
         .then(function(data){
             weather.temperature.value = Math.floor(data.main.temp - Kelvin);
-            weather.description = data.weather[0].icon;
+            weather.description = data.weather[0].description;
             weather.iconId = data.weather[0].icon;
             weather.city = data.name;
             weather.country = data.sys.country;
