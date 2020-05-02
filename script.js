@@ -70,3 +70,8 @@ function displayWeather(){
     descElement.innerHTML = weather.description;
     locationElement.innerHTML = `${weather.city}, ${weather.country}`;
 }
+
+// Celsius to Fahrenheit Conversion s function
+function celsiusToFahrenheit(temperature){
+    return (temperature * 9/5) + 32;
+}
