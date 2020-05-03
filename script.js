@@ -1,3 +1,4 @@
+//Sam's Production
 // Selecting Elements
 
 const iconElement = document.querySelector(".weather-icon");
