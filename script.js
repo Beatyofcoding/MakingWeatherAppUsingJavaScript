@@ -87,6 +87,6 @@ tempElement.addEventListener("click", function(){
         weather.temperature.unit = "fahrenheit";
     }else{
         tempElement.innerHTML = `${weather.temperature.value}°<span>C</span>`;
-        weatù.temperature.unit = "celsius"
+        weather.temperature.unit = "celsius"
     }
 });
