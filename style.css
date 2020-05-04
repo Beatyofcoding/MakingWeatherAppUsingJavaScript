@@ -1,3 +1,9 @@
+/* body::after{
+    content: hey was;
+    background-color: black;
+    size: 1000;
+
+} */
 *{
     font-family: "Rimouski";
 }
